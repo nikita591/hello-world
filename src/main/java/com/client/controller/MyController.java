@@ -37,7 +37,7 @@ public class MyController {
 		final Logger logger = LoggerFactory.getLogger(this.getClass());
 		logger.info("###############In Controller . . .");
 		myService.myserviceMethod();
-		return "Hello World";
+		return "Welcome to First Deployment on Heroku...!!!";
 		
 		
 	}
